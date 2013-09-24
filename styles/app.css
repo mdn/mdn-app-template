@@ -1,17 +1,5 @@
 /*Default CSS layout for narrow screens*/
 
-x-flipbox {
-  width: 400px;
-  height: 300px;
-}
-
-x-flipbox div:first-child {
-  background: red;
-}
-
-x-flipbox div:last-child {
-  background: blue;
-}
 
 @media (min-width: 480px) {
   /*CSS for medium width screens*/
