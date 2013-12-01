@@ -2,11 +2,11 @@
   "version": "0.1",
   "name": "Open Web App",
   "description": "Your new awesome Open Web App",
-  "launch_path": "/app-template/index.html",
+  "launch_path": "/index.html",
   "icons": {
-    "16": "/app-template/app-icons/icon-16.png",
-    "48": "/app-template/app-icons/icon-48.png",
-    "128": "/app-template/app-icons/icon-128.png"
+    "16": "/app-icons/icon-16.png",
+    "48": "/app-icons/icon-48.png",
+    "128": "/app-icons/icon-128.png"
   },
   "developer": {
     "name": "Your Name",
