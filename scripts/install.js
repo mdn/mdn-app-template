@@ -1,4 +1,12 @@
-var manifest_url = location.href + 'manifest.webapp';
+var manifest_url = basepath(location.href) + 'manifest.webapp';
+
+function basepath(path) {
+  // make sure we omit 
+  var i = path.lastIndexOf('/')
+  if (i !== -1 && i !== path.length - 1)
+    return path.substr(0, i + 1);
+  return path;
+}
 
 function install(ev) {
   ev.preventDefault();
